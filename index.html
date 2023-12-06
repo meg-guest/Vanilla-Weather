@@ -3,37 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather Checker App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Nanaimo</h1>
-        <p>
-          Sunday 18:46, light rain
-          <br />
-          Humidity: 63%, Wind: 5.66km/h
-        </p>
-      </div>
-      <div>🌩️ 4°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/meg-guest" target="_blank"> Meg Guest</a>,
-      code hosted
-      <a href="https://github.com/meg-guest/Vanilla-Weather" target="_blank">
-        on GiHub</a
-      >
-      and website hosted
-      <a href="https://megs-weather-checker.netlify.app" target="_blank">
-        on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Nanaimo</h1>
+          <p>
+            Sunday 18:46, light rain
+            <br />
+            Humidity: 63%, Wind: 5.66km/h
+          </p>
+        </div>
+        <div>🌩️ 4°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/meg-guest" target="_blank"> Meg Guest</a>,
+        code hosted
+        <a href="https://github.com/meg-guest/Vanilla-Weather" target="_blank">
+          on GiHub</a
+        >
+        and website hosted
+        <a href="https://megs-weather-checker.netlify.app" target="_blank">
+          on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
