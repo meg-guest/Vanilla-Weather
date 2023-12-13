@@ -84,6 +84,7 @@ main {
 }
 .weather-forecast {
   display: flex;
+  justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -112,6 +113,7 @@ main {
 
 .weather-forecast-temperature-high {
   padding: 0 10px;
+  font-weight: bold;
 }
 .weather-forecast-temperature-low {
   opacity: 0.6;
